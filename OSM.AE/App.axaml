@@ -1,0 +1,21 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:OSM.AE"
+             x:Class="OSM.AE.App"
+             RequestedThemeVariant="Light">
+             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+
+    <Application.DataTemplates>
+        <local:ViewLocator/>
+    </Application.DataTemplates>
+
+    <Application.Styles>
+		<!--<StyleInclude Source="avares://Citrus.Avalonia/Citrus.xaml"/>-->
+
+		<!-- To use other themes: -->
+		<!--<StyleInclude Source="avares://Citrus.Avalonia/Sea.xaml"/>-->
+		<!--<StyleInclude Source="avares://Citrus.Avalonia/Rust.xaml"/>-->
+		<StyleInclude Source="avares://Citrus.Avalonia/Candy.xaml"/>
+		<!--<StyleInclude Source="avares://Citrus.Avalonia/Magma.xaml"/>-->
+    </Application.Styles>
+</Application>
