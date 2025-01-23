@@ -16,22 +16,22 @@
 		RowDefinitions="0.5*, 5*"
 		Margin="3">
 		<DockPanel Grid.Row="0" Grid.ColumnSpan="2">
-			<Button DockPanel.Dock="Left" Margin="3">
+			<Button DockPanel.Dock="Left" Margin="3" Width="150" Height="50" Padding="10">
 				Режим
 			</Button>
-			<Button DockPanel.Dock="Left" Margin="3">
+			<Button DockPanel.Dock="Left" Margin="3" Width="150" Height="50" Padding="10">
 				Карта
 			</Button>
-			<Button DockPanel.Dock="Left" Margin="3">
+			<Button DockPanel.Dock="Left" Margin="3" Width="150" Height="50" Padding="10">
 				Подложка
 			</Button>
-			<Button DockPanel.Dock="Left" Margin="3">
+			<Button DockPanel.Dock="Left" Margin="3" Width="150" Height="50" Padding="10">
 				Настройка
 			</Button>
-			<Button DockPanel.Dock="Left" Margin="3">
+			<Button DockPanel.Dock="Left" Margin="3" Width="150" Height="50" Padding="10">
 				Окна
 			</Button>
-			<SplitButton Content="Меню" DockPanel.Dock="Right" Margin="3">
+			<SplitButton Content="Меню" DockPanel.Dock="Right" Margin="3" Width="150" Height="60" Padding="10">
 				<SplitButton.Flyout>
 					<MenuFlyout Placement="Bottom">
 						<MenuItem Header="Аккаунт">
@@ -51,5 +51,6 @@
 			
 		</Panel>
 	</Grid>
+	
   <!--<Button HorizontalAlignment="Center" VerticalAlignment="Center">Хола бола</Button>-->
 </UserControl>
